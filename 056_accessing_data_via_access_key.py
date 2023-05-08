@@ -6,7 +6,7 @@
 
 spark.conf.set(
     "fs.azure.account.key.00x00dlorders.dfs.core.windows.net",
-    "eCeAWuDTiJwEFuAwJC2mKKAm6oKye3viGstSrIVeh4pdOUi1lpEtUonMCBnaXp4x6oHkWM1Alxab+AStOjVCbA==",
+    "****************************************************************************************",
 )
 
 # COMMAND ----------
