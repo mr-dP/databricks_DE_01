@@ -10,8 +10,10 @@ spark.conf.set(
 )
 spark.conf.set(
     "fs.azure.sas.fixed.token.00x00dlorders.dfs.core.windows.net",
-    "sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupyx&se=2023-05-07T19:57:17Z&st=2023-05-07T11:57:17Z&spr=https&sig=OLRTFixT9BFBtZJp0VO4Rb2Rng3AHEDRjILoMFv%2FLMs%3D",
+    "sv=2022-11-02&ss=****&srt=sco&sp=**********&se=2023-05-07T19:57:17Z&st=2023-05-07T11:57:17Z&spr=*****&sig=************************************************",
 )
+
+# remove "?" from the start of the generated SSAS token
 
 # COMMAND ----------
 
