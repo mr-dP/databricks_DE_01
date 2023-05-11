@@ -79,4 +79,12 @@ display(
 
 # COMMAND ----------
 
+deltaTable = DeltaTable.forPath(
+    spark, "dbfs:/user/hive/warehouse/delta_lake_db.db/countries_managed_pq"
+)
+
+deltaTable.history().display()
+
+# COMMAND ----------
+
 
