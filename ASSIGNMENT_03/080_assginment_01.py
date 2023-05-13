@@ -72,7 +72,7 @@ from pyspark.sql.functions import current_timestamp, to_date
 
 health_data = health_df.withColumn(
     "DATE_PROVIDED", to_date("DATE_PROVIDED", "MM/dd/yyyy")
-).withColumn("UPDATED_TIMESTMAP", current_timestamp())
+).withColumn("UPDATED_TIMESTAMP", current_timestamp())
 
 display(health_data)
 
