@@ -117,3 +117,39 @@ def order_items_silver():
 # COMMAND ----------
 
 
+
+# COMMAND ----------
+
+# %sql
+# SELECT
+#   *
+# FROM
+#   delta_db.orders_bronze;
+
+# COMMAND ----------
+
+# %sql
+# SELECT
+#   *
+# FROM
+#   delta_db.orders_silver;
+
+# COMMAND ----------
+
+# %sql
+# SELECT
+#   *
+# FROM
+#   delta_db.order_items_bronze;
+
+# COMMAND ----------
+
+# %sql
+# SELECT
+#   *
+# FROM
+#   delta_db.order_items_silver;
+
+# COMMAND ----------
+
+
