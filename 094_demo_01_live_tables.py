@@ -71,7 +71,7 @@ order_itmes_schema = StructType(
         StructField("ORDER_ID", IntegerType(), False),
         StructField("LINE_ITEM_ID", IntegerType(), False),
         StructField("PRODUCT_ID", IntegerType(), False),
-        StructField("UNIY_PRICE", DoubleType(), False),
+        StructField("UNIT_PRICE", DoubleType(), False),
         StructField("QUANTITY", IntegerType(), False),
     ]
 )
