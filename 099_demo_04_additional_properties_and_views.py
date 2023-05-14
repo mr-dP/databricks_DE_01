@@ -1,6 +1,6 @@
 # Databricks notebook source
 import dlt
-from pyspark.sql.functions import to_date, round
+from pyspark.sql.functions import to_date, round, date_format
 from pyspark.sql.types import (
     StructField,
     StructType,
